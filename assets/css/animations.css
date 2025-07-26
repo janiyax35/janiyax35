@@ -1,0 +1,290 @@
+/*--------------------------------------------------------------
+# Animations
+--------------------------------------------------------------*/
+
+/* Typing Animation */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: var(--primary-color) }
+}
+
+.typing-effect {
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: 0.1em;
+  border-right: 0.15em solid var(--primary-color);
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret 0.75s step-end infinite;
+}
+
+/* Glitch Effect */
+@keyframes glitch {
+  0% {
+    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+                -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
+                0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  14% {
+    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+                -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
+                0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  15% {
+    text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+                0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+                -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  49% {
+    text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+                0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+                -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  50% {
+    text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
+                0.05em 0 0 rgba(0, 255, 0, 0.75),
+                0 -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  99% {
+    text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
+                0.05em 0 0 rgba(0, 255, 0, 0.75),
+                0 -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  100% {
+    text-shadow: -0.025em 0 0 rgba(255, 0, 0, 0.75),
+                -0.025em -0.025em 0 rgba(0, 255, 0, 0.75),
+                -0.025em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+}
+
+/* Pulse Animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+/* Scanner Animation */
+@keyframes scanner {
+  0%, 100% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+}
+
+.scanner-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.scanner-effect::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, transparent, var(--primary-color), transparent);
+  animation: scanner 3s ease-in-out infinite;
+  z-index: 1;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+/* Blink Animation */
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
+.blink {
+  animation: blink 1.5s infinite;
+}
+
+/* Terminal Cursor Animation */
+@keyframes cursor-blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.cursor-blink::after {
+  content: "_";
+  animation: cursor-blink 1s infinite;
+}
+
+/* Flicker Animation */
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    text-shadow: 0 0 4px var(--text-color), 0 0 11px var(--text-color), 0 0 19px var(--text-color), 0 0 40px var(--primary-color), 0 0 80px var(--primary-color), 0 0 90px var(--primary-color), 0 0 100px var(--primary-color), 0 0 150px var(--primary-color);
+  }
+  20%, 24%, 55% {
+    text-shadow: none;
+  }
+}
+
+.flicker-text {
+  animation: flicker 1.5s infinite alternate;
+}
+
+/* Data Flow Animation */
+@keyframes data-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.data-flow {
+  background: linear-gradient(90deg, 
+    var(--dark-bg) 0%, 
+    var(--primary-color) 25%, 
+    var(--secondary-color) 50%, 
+    var(--primary-color) 75%, 
+    var(--dark-bg) 100%);
+  background-size: 200% 100%;
+  animation: data-flow 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Loading Spinner */
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-spinner {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(var(--primary-color-rgb), 0.3);
+  border-radius: 50%;
+  border-top-color: var(--primary-color);
+  animation: spinner 1s linear infinite;
+  margin-right: 10px;
+}
+
+/* Scale In Animation */
+@keyframes scaleIn {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.scale-in {
+  animation: scaleIn 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* Hacking Animation for Buttons */
+@keyframes hacking {
+  0% {
+    box-shadow: 0 0 5px var(--primary-color);
+  }
+  50% {
+    box-shadow: 0 0 20px var(--primary-color), 0 0 30px var(--secondary-color);
+  }
+  100% {
+    box-shadow: 0 0 5px var(--primary-color);
+  }
+}
+
+.btn-cyber:hover {
+  animation: hacking 2s infinite;
+}
+
+/* Radar Animation */
+@keyframes radar {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.radar-effect::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 150%;
+  height: 150%;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  transform: translate(-50%, -50%);
+  animation: radar 4s linear infinite;
+  z-index: -1;
+}
+
+/* Terminal Entry Animation */
+.terminal-line {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.terminal-line.active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}

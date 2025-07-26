@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janith Deshan | Cybersecurity Portfolio</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ssh/ssh-original.svg">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&family=Nova+Mono&family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!-- Devicon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+
+    <!-- EmailJS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("fPKkVwF73NhpvP2VE");
+            console.log("EmailJS initialized on page load");
+        })();
+    </script>
+</head>
+
+<body>
+    <!-- Matrix Animation Canvas -->
+    <canvas id="matrix-canvas"></canvas>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="cyber-text">&lt;/&gt;</span> <span id="currentDateTime">2025-07-26 21:00:02</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#journey">Journey</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12 text-center">
+                    <div class="hero-content" data-aos="fade-up">
+                        <h1 class="glitch" data-text="Janith Deshan">Janith Deshan</h1>
+                        <h2 class="cyber-subtitle">Cybersecurity Undergraduate</h2>
+                        <div class="terminal-container">
+                            <div class="terminal-header">
+                                <span class="terminal-button red"></span>
+                                <span class="terminal-button yellow"></span>
+                                <span class="terminal-button green"></span>
+                            </div>
+                            <div class="terminal-content">
+                                <p class="typing-effect">
+                                    <span class="prompt">$</span> Exploring the digital realm to secure cyberspace...
+                                </p>
+                            </div>
+                        </div>
+                        <div class="hero-buttons">
+                            <a href="assets/resume/janith_deshan_resume.pdf" class="btn btn-cyber" download>
+                                <i class="fas fa-file-download"></i> Download Resume
+                            </a>
+                            <a href="#contact" class="btn btn-cyber-outline">
+                                <i class="fas fa-envelope"></i> Contact Me
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">About <span class="green-text">Me</span></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-center" data-aos="fade-right">
+                    <div class="profile-img-container">
+                        <div class="profile-img-border">
+                            <img src="assets/images/profile.jpg" alt="Janith Deshan" class="profile-img">
+                        </div>
+                        <div class="cyber-frame"></div>
+                    </div>
+                </div>
+                <div class="col-lg-8" data-aos="fade-left">
+                    <div class="about-content">
+                        <div class="terminal-container">
+                            <div class="terminal-header">
+                                <div class="terminal-title">user_info.sh</div>
+                                <span class="terminal-button red"></span>
+                                <span class="terminal-button yellow"></span>
+                                <span class="terminal-button green"></span>
+                            </div>
+                            <div class="terminal-content">
+                                <p><span class="prompt">$</span> <span class="command">whoami</span></p>
+                                <p class="output">Name: Janith Deshan Mihijaya Samaratunga</p>
+                                <p class="output">Status: BSc (Hons) Information Technology Specialized in Cyber Security</p>
+                                <p class="output">Location: Homagama, Sri Lanka</p>
+                                <p><span class="prompt">$</span> <span class="command">cat education.txt</span></p>
+                                <p class="output">Currently pursuing BSc in Cybersecurity at SLIIT Malabe Campus</p>
+                                <p class="output">A/L: Passed with 1B, 2C (2023)</p>
+                                <p class="output">O/L: Passed with 2A, 3B, 4C (2020)</p>
+                                <p class="output">School: Mahanama College, Colombo 03</p>
+                                <p><span class="prompt">$</span> <span class="command">echo $PASSION</span></p>
+                                <p class="output">Passionate about cybersecurity, network systems and secure application development. Currently expanding my knowledge in digital forensics and penetration testing.</p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/janiyax35" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/janithdeshan/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/janith.deshan.186" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/janith_deshan11/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey/Timeline Section -->
+    <section id="journey" class="section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Academic <span class="green-text">Journey</span></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="timeline">
+                <!-- Current -->
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot active"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date">2023 - Present</span>
+                            <h3>BSc (Hons) Information Technology Specialized in Cyber Security - SLIIT</h3>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Currently in Year 2, Semester 1</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Year 1 Semester 2 -->
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot completed"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date">Year 1 - Semester 2</span>
+                            <h3>Core Modules</h3>
+                        </div>
+                        <div class="timeline-body">
+                            <ul class="module-list">
+                                <li><i class="fas fa-code"></i> Data Structures and Algorithms</li>
+                                <li><i class="fas fa-calculator"></i> Discrete Mathematics (Python)</li>
+                                <li><i class="fas fa-java"></i> Object Oriented Programming (Java)</li>
+                                <li><i class="fas fa-book"></i> Technical Writing</li>
+                            </ul>
+                            <div class="project-highlight">
+                                <h4><i class="fas fa-project-diagram"></i> Major Project</h4>
+                                <p>Web-based Wedding Planning and Vendor Management System using Java & Eclipse</p>
+                                <p>Implemented OOP concepts and advanced data structures</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Year 1 Semester 1 -->
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot completed"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date">Year 1 - Semester 1</span>
+                            <h3>Core Modules</h3>
+                        </div>
+                        <div class="timeline-body">
+                            <ul class="module-list">
+                                <li><i class="fas fa-network-wired"></i> Data Communication and Networks</li>
+                                <li><i class="fas fa-code"></i> Introduction to Programming (Java)</li>
+                                <li><i class="fas fa-square-root-alt"></i> Mathematics for Computing</li>
+                                <li><i class="fas fa-laptop-code"></i> Fundamentals of Computing</li>
+                            </ul>
+                            <div class="project-highlight">
+                                <h4><i class="fas fa-project-diagram"></i> Major Projects</h4>
+                                <p>Designed industrial networking system using Cisco Packet Tracer</p>
+                                <p>Developed home automation system with Arduino featuring remote control, voice activation, and sensor automation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- A/L -->
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot completed"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date">2023</span>
+                            <h3>Advanced Level (A/L)</h3>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Mahanama College, Colombo 03</p>
+                            <p>Achieved 1B, 2C passes</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- O/L -->
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot completed"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <span class="timeline-date">2020</span>
+                            <h3>Ordinary Level (O/L)</h3>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Mahanama College, Colombo 03</p>
+                            <p>Achieved 2A, 3B, 4C passes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Technical <span class="green-text">Skills</span></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="row">
+                <!-- Programming Languages -->
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h3 class="skill-category-title"><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-container">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML/CSS</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cybersecurity Skills -->
+                <div class="col-lg-6" data-aos="fade-left">
+                    <h3 class="skill-category-title"><i class="fas fa-shield-alt"></i> Cybersecurity Skills</h3>
+                    <div class="skill-container">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Network Security</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Security Analysis</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Penetration Testing</span>
+                                <span class="skill-percentage">60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">System Administration</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Technologies -->
+                <div class="col-12 mt-5" data-aos="fade-up">
+                    <h3 class="skill-category-title"><i class="fas fa-tools"></i> Tools & Technologies</h3>
+                    <div class="tools-container">
+                        <div class="tool-item" data-tooltip="Cisco Packet Tracer">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <div class="tool-item" data-tooltip="Arduino">
+                            <i class="fab fa-arduino"></i>
+                        </div>
+                        <div class="tool-item" data-tooltip="Linux">
+                            <i class="fab fa-linux"></i>
+                        </div>
+                        <div class="tool-item" data-tooltip="Git">
+                            <i class="fab fa-git-alt"></i>
+                        </div>
+                        <div class="tool-item" data-tooltip="Eclipse">
+                            <i class="devicon-eclipse-plain"></i>
+                        </div>
+                        <div class="tool-item" data-tooltip="VS Code">
+                            <i class="devicon-vscode-plain"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">My <span class="green-text">Projects</span></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="row">
+                <!-- Project 1 -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="flip-left">
+                    <div class="project-card">
+                        <div class="card-header">
+                            <i class="fas fa-network-wired"></i>
+                            <h3>Industrial Network System</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>Complete network system for industrial use designed with Cisco Packet Tracer. Implements secure VLANs, routing protocols, and firewall configurations.</p>
+                            <div class="tech-stack">
+                                <span>Cisco</span>
+                                <span>Networking</span>
+                                <span>Security</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://github.com/janiyax35" class="btn btn-cyber-sm" target="_blank">
+                                <i class="fab fa-github"></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="flip-left" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="card-header">
+                            <i class="fas fa-home"></i>
+                            <h3>Home Automation System</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>Arduino-based home automation system with multiple control interfaces including remote control, voice commands, and automated sensors for environmental monitoring.</p>
+                            <div class="tech-stack">
+                                <span>Arduino</span>
+                                <span>IoT</span>
+                                <span>Sensors</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://github.com/janiyax35" class="btn btn-cyber-sm" target="_blank">
+                                <i class="fab fa-github"></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="col-md-6 col-lg-4 mb-4" data-aos="flip-left" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="card-header">
+                            <i class="fas fa-rings-wedding"></i>
+                            <h3>Wedding Planning System</h3>
+                        </div>
+                        <div class="card-body">
+                            <p>Web-based wedding planning and vendor management system using Java and Eclipse. Implemented with OOP concepts and data structures for efficient data handling.</p>
+                            <div class="tech-stack">
+                                <span>Java</span>
+                                <span>OOP</span>
+                                <span>Web Dev</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://github.com/janiyax35" class="btn btn-cyber-sm" target="_blank">
+                                <i class="fab fa-github"></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Contact <span class="green-text">Me</span></h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <div class="contact-info">
+                        <div class="terminal-container">
+                            <div class="terminal-header">
+                                <div class="terminal-title">contact_details.sh</div>
+                                <span class="terminal-button red"></span>
+                                <span class="terminal-button yellow"></span>
+                                <span class="terminal-button green"></span>
+                            </div>
+                            <div class="terminal-content">
+                                <p><span class="prompt">$</span> <span class="command">cat contact_info.txt</span></p>
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <div class="contact-details">
+                                        <h4>Email</h4>
+                                        <p>janithmihijaya123@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <div class="contact-details">
+                                        <h4>Location</h4>
+                                        <p>Homagama, Sri Lanka</p>
+                                    </div>
+                                </div>
+                                <p><span class="prompt">$</span> <span class="command">cat social_links.txt</span></p>
+                                <div class="contact-social">
+                                    <a href="https://github.com/janiyax35" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                                    <a href="https://www.linkedin.com/in/janithdeshan/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                                    <a href="https://www.facebook.com/janith.deshan.186" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+                                    <a href="https://www.instagram.com/janith_deshan11/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="contact-form-container">
+                        <div class="terminal-container">
+                            <div class="terminal-header">
+                                <div class="terminal-title">send_message.sh</div>
+                                <span class="terminal-button red"></span>
+                                <span class="terminal-button yellow"></span>
+                                <span class="terminal-button green"></span>
+                            </div>
+                            <div class="terminal-content">
+                                <form id="contactForm">
+                                    <div class="form-group">
+                                        <label><span class="prompt">$</span> Name:</label>
+                                        <input type="text" class="form-control cyber-input" id="name" name="from_name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label><span class="prompt">$</span> Email:</label>
+                                        <input type="email" class="form-control cyber-input" id="email" name="from_email" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label><span class="prompt">$</span> Subject:</label>
+                                        <input type="text" class="form-control cyber-input" id="subject" name="subject" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label><span class="prompt">$</span> Message:</label>
+                                        <textarea class="form-control cyber-textarea" id="message" name="message" rows="4" required></textarea>
+                                    </div>
+                                    <input type="hidden" name="timestamp" value="2025-07-26 21:00:02">
+                                    <input type="hidden" name="user_id" value="IT24102137">
+                                    <button type="submit" class="btn btn-cyber">
+                                        <i class="fas fa-paper-plane"></i> Send Message
+                                    </button>
+                                    <div id="form-result"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2024-2025 Janith Deshan. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="cyber-text">[ Cybersecurity Specialist ] <span class="small">IT24102137</span></p>
+                    <p class="small text-muted">Last updated: 2025-07-26 21:00:02</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="assets/js/matrix-animation.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/email.js"></script>
+    
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true,
+            mirror: false
+        });
+
+        // Set current date and time
+        document.addEventListener('DOMContentLoaded', function() {
+            const dateTimeElements = document.querySelectorAll('#currentDateTime, .small.text-muted');
+            dateTimeElements.forEach(el => {
+                el.textContent = el.textContent.replace(/[\d-]+\s[\d:]+/, '2025-07-26 21:00:02');
+            });
+        });
+    </script>
+</body>
+</html>
