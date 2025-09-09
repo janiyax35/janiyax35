@@ -11,6 +11,10 @@
   <img src="https://i.imgur.com/waxVImv.png" width="100%" height="4px" alt="Matrix Line"/>
 </p>
 
+<div align ="center">
+<a href="https://gitroll.io/profile/uYMpOg82YkfeElxFpnxjyBnMv9bd2" target="_blank"><img src="https://gitroll.io/api/badges/profiles/v1/uYMpOg82YkfeElxFpnxjyBnMv9bd2?theme=darkEmerald" height="400" alt="GitRoll Profile Badge"/></a>
+</div>
+
 <!-- Profile & Digital Identity Section -->
 <div align="center">
   <table>
