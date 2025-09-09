@@ -159,12 +159,20 @@ current_focus: "Defending the digital realm through proactive security measures"
     <img src="https://img.shields.io/badge/LinkedIn-janithdeshan-0f0?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=black" alt="LinkedIn"/>
   </a>
 </div>
-
+<a>
+  
+</a>
+<div align="center">
+  <a href="https://www.buymeacoffee.com/janiyax" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" height="40" />
+  </a>
+</div>
 <!-- Contribution Snake Animation -->
 <div align="center">
   <h3>💻 Watch my contribution graph get eaten by the snake 🐍</h3>
-  <img src="https://raw.githubusercontent.com/janiyax35/janiyax35/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+  ![Snake animation](https://github.com/janiyax35/contribution_snake/blob/main/dist/github-contribution-grid-snake-dark.svg)
 </div>
+
 
 <!-- Matrix Animation Footer -->
 <div align="center">
