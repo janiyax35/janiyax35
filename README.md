@@ -10,7 +10,11 @@
 <p align="center">
   <img src="https://i.imgur.com/waxVImv.png" width="100%" height="4px" alt="Matrix Line"/>
 </p>
-
+<p align="center">
+  <a href="https://github.com/janiyax35?tab=repositories"><img src="https://img.shields.io/badge/Repositories-75+-2962FF?style=for-the-badge&logoColor=white" alt="Repositories"></a>
+  <a href="https://github.com/janiyax35?tab=followers"><img src="https://img.shields.io/badge/Followers-100+-2962FF?style=for-the-badge&logoColor=white" alt="Followers"></a>
+  <a href="https://github.com/janiyax35"><img src="https://komarev.com/ghpvc/?username=Kavi-ya&style=for-the-badge&color=2962FF" alt="Profile Views"></a>
+</p>
 <div align ="center">
 <a href="https://gitroll.io/profile/uYMpOg82YkfeElxFpnxjyBnMv9bd2" target="_blank"><img src="https://gitroll.io/api/badges/profiles/v1/uYMpOg82YkfeElxFpnxjyBnMv9bd2?theme=darkEmerald" height="400" alt="GitRoll Profile Badge"/></a>
 </div>
