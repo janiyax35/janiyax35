@@ -168,11 +168,12 @@ current_focus: "Defending the digital realm through proactive security measures"
   </a>
 </div>
 <!-- Contribution Snake Animation -->
-<div align="center">
-  <h3>💻 Watch my contribution graph get eaten by the snake 🐍</h3>
+<div align ="center">
+<h3>💻 Watch my contribution graph get eaten by the snake 🐍</h3>
+  
   ![Snake animation](https://github.com/janiyax35/contribution_snake/blob/main/dist/github-contribution-grid-snake-dark.svg)
+  
 </div>
-
 
 <!-- Matrix Animation Footer -->
 <div align="center">
