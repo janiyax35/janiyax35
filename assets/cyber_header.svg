@@ -1,0 +1,50 @@
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with cyber grid -->
+  <defs>
+    <linearGradient id="cyberGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161B22;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#0f0" stroke-width="0.5" stroke-opacity="0.15"/>
+    </pattern>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="100%" height="100%" fill="url(#cyberGradient)" />
+  <rect width="100%" height="100%" fill="url(#grid)" />
+  
+  <!-- Matrix-style binary rain animation effect -->
+  <g id="matrixRain" opacity="0.2">
+    <text x="30" y="30" font-family="monospace" font-size="10" fill="#0f0">01001010 01100001 01101110 01101001</text>
+    <text x="200" y="60" font-family="monospace" font-size="10" fill="#0f0">01110100 01101000 00100000 01000100</text>
+    <text x="100" y="90" font-family="monospace" font-size="10" fill="#0f0">01100101 01110011 01101000 01100001</text>
+    <text x="300" y="120" font-family="monospace" font-size="10" fill="#0f0">01101110 00100000 01001101 01101001</text>
+    <text x="50" y="150" font-family="monospace" font-size="10" fill="#0f0">01101000 01101001 01101010 01100001</text>
+    <text x="400" y="180" font-family="monospace" font-size="10" fill="#0f0">01111001 01100001 00100000 01010011</text>
+    <text x="600" y="40" font-family="monospace" font-size="10" fill="#0f0">01100001 01101101 01100001 01110010</text>
+    <text x="500" y="70" font-family="monospace" font-size="10" fill="#0f0">01100001 01110100 01110101 01101110</text>
+    <text x="700" y="100" font-family="monospace" font-size="10" fill="#0f0">01100111 01100001</text>
+  </g>
+  
+  <!-- Cyber security themed elements -->
+  <g>
+    <path d="M 400 170 L 390 160 L 410 160 Z" fill="#00eeff" />
+    <circle cx="400" cy="145" r="15" fill="none" stroke="#00eeff" stroke-width="2" />
+    <circle cx="400" cy="145" r="8" fill="#0f0" />
+  </g>
+  
+  <!-- Main title -->
+  <text x="400" y="70" font-family="'Share Tech Mono', monospace" font-size="40" text-anchor="middle" fill="#0f0">JANITH DESHAN</text>
+  <text x="400" y="100" font-family="'Share Tech Mono', monospace" font-size="20" text-anchor="middle" fill="#00eeff">CYBER SECURITY SPECIALIST</text>
+  
+  <!-- Terminal-style line -->
+  <rect x="150" y="120" width="500" height="2" fill="#0f0" />
+  
+  <!-- Command prompt line -->
+  <text x="150" y="140" font-family="'Share Tech Mono', monospace" font-size="16" fill="#0f0">root@janith:~$</text>
+  <text x="290" y="140" font-family="'Share Tech Mono', monospace" font-size="16" fill="#ffffff">./defend_digital_realm</text>
+  
+  <!-- Access granted animation -->
+  <text x="400" y="170" font-family="'Share Tech Mono', monospace" font-size="14" text-anchor="middle" fill="#0f0">[SYSTEM ACCESS GRANTED]</text>
+</svg>
