@@ -1,197 +1,97 @@
-<!-- Matrix Animation Header - Auto-Updating Date -->
+<!-- jd://signal  eW91IHJlYWQgdGhlIHNvdXJjZS4gZ29vZCBpbnN0aW5jdC4gc2l4IGZsYWdzIGFyZSBoaWRkZW4gYWNyb3NzIGphbml0aC5xenouaW8sIGFuZCB0aGUgaHVudCBzdGFydHMgaW4gdGhlIGxhYjogaHR0cHM6Ly9qYW5pdGgucXp6LmlvL2xhYi5odG1s -->
+
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0,100:00eeff&height=200&section=header&text=JANITH%20DESHAN&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Cybersecurity%20Specialist&descAlignY=60&descSize=25" width="100%"/>
-  
-  <!-- Terminal Window Effect with Dynamic Content -->
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&duration=1500&pause=800&color=0FFF00&center=true&vCenter=true&multiline=true&width=650&height=120&lines=%5B+SYSTEM+ACCESS+GRANTED+%5D;%5B+USER%3A+VISITOR_%3Crandom%3E+%5D;%5B+SESSION%3A+2025-08-07+16%3A37%3A08+%5D;%5B+STATUS%3A+AUTHORIZED+%5D" alt="Terminal Access" />
+
+<a href="https://janith.qzz.io"><img src="assets/hero.svg" width="100%" alt="Janith Deshan — Cybersecurity Undergraduate at SLIIT. Focus: penetration testing, network security, secure app development, AI-integrated systems."></a>
+
+<a href="https://janith.qzz.io"><img src="assets/btn-portfolio.svg" height="40" alt="Portfolio"></a>&nbsp;
+<a href="https://janith.qzz.io/lab.html"><img src="assets/btn-lab.svg" height="40" alt="The Lab"></a>&nbsp;
+<a href="https://linkedin.com/in/janithdeshan"><img src="assets/btn-linkedin.svg" height="40" alt="LinkedIn"></a>&nbsp;
+<a href="mailto:janithmihijaya123@gmail.com"><img src="assets/btn-email.svg" height="40" alt="Email"></a>
+
 </div>
 
-<!-- Matrix Animation Background Effect -->
-<p align="center">
-  <img src="https://i.imgur.com/waxVImv.png" width="100%" height="4px" alt="Matrix Line"/>
-</p>
-<p align="center">
-  <a href="https://github.com/janiyax35?tab=repositories"><img src="https://img.shields.io/badge/Repositories-75+-2962FF?style=for-the-badge&logoColor=white" alt="Repositories"></a>
-  <a href="https://github.com/janiyax35?tab=followers"><img src="https://img.shields.io/badge/Followers-100+-2962FF?style=for-the-badge&logoColor=white" alt="Followers"></a>
-  <a href="https://github.com/janiyax35"><img src="https://komarev.com/ghpvc/?username=Kavi-ya&style=for-the-badge&color=2962FF" alt="Profile Views"></a>
-</p>
-<div align ="center">
-<a href="https://gitroll.io/profile/uYMpOg82YkfeElxFpnxjyBnMv9bd2" target="_blank"><img src="https://gitroll.io/api/badges/profiles/v1/uYMpOg82YkfeElxFpnxjyBnMv9bd2?theme=darkEmerald" height="400" alt="GitRoll Profile Badge"/></a>
-</div>
+<details>
+<summary><b>tl;dr for recruiters</b> — the 20-second plain-text version</summary>
+<br>
 
-<!-- Profile & Digital Identity Section -->
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=janiyax35&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=0f0&icon_color=00eeff&text_color=FFFFFF" alt="GitHub Stats" width="100%"/>
-      </td>
-      <td width="50%" align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=janiyax35&theme=github-dark&hide_border=true&background=0D1117&stroke=0f0&ring=00eeff&fire=FF0000&currStreakNum=FFFFFF&sideNums=0f0&currStreakLabel=00eeff&sideLabels=00eeff&dates=FFFFFF" alt="Streak Stats" width="100%"/>
-      </td>
-    </tr>
-  </table>
-</div>
+- **Janith Deshan**, Cybersecurity undergraduate at SLIIT: BSc (Hons) IT, specialising in Cyber Security, Year 3. Based in Homagama, Sri Lanka.
+- **Looking for:** internships and collaborations in security: penetration testing, network security, AppSec and DevSecOps.
+- **Proof of work:**
+  - built a custom CTF platform with a six-stage incident-response challenge (Sentinel CTF, live and invite-only);
+  - secured OWASP NodeGoat end to end, with a four-gate CI pipeline;
+  - built an AI shopping agent recognised among 700+ national entrants in the Kapruka Agent Challenge 2026.
+- **Rank:** top 7% globally on TryHackMe.
+- **Contact:** [janithmihijaya123@gmail.com](mailto:janithmihijaya123@gmail.com) · [LinkedIn](https://linkedin.com/in/janithdeshan) · [janith.qzz.io](https://janith.qzz.io) (the CV is on the site).
 
-<!-- Animated Banner -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=30&duration=2000&pause=1000&color=0FFF00&center=true&vCenter=true&random=false&width=650&lines=BSc+Cyber+Security+Specialist;Network+%26+Systems+Defender;Digital+Forensics+Enthusiast;Ethical+Hacker+In+Training" alt="Typing SVG" />
-</p>
+</details>
 
-<!-- About Section with Terminal Style -->
-<h2>
-  <img src="https://media.giphy.com/media/QTfX9Ejfra3ZmNxh6B/giphy.gif" width="40px" alt="Terminal">
-  <span>whoami</span>
-</h2>
+<br>
+
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/head-whoami-light.svg"><img src="assets/head-whoami.svg" width="100%" alt="01 whoami"></picture>
+
+I break systems to understand them, and build systems that are harder to break. My focus is offensive security and network defence, and I write the code to back both up: CTF platforms, hardened pipelines, and AI agents.
 
 ```yaml
-name: Janith Deshan Mihijaya Samaratunga
-location: Homagama, Sri Lanka
-education: BSc (Hons) Information Technology Specialized in Cyber Security
-university: Sri Lanka Institute of Information Technology (SLIIT)
-student_id: IT24102137
-
-interests:
-  - Network Security & Penetration Testing
-  - Digital Forensics & Malware Analysis
-  - Secure Application Development
-  - IoT Security Architecture
-  
-current_focus: "Defending the digital realm through proactive security measures"
+name:       Janith Deshan
+role:       Cybersecurity Undergraduate
+education:  BSc (Hons) IT, Cyber Security @ SLIIT     # year 3 · semester 1
+location:   Homagama, Sri Lanka
+focus:      [penetration testing, network security, secure app dev, ai-integrated systems]
+building:   CTF platforms · DevSecOps pipelines · AI agents
+learning:   TryHackMe → AI Security, Cyber Security 101
+rank:       top 7% global on TryHackMe
+principles:
+  - think like an attacker   # recon first; every system is a set of assumptions
+  - build like a defender    # least privilege, segmentation, secure defaults
+  - learn in public          # consistency beats intensity
 ```
 
-<!-- Live Matrix Animation -->
-<div align="center">
-  <a href="https://janiyax35.github.io">
-    <img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="500" alt="Matrix Effect"/>
-  </a>
-  <br>
-  <sup>[ Click the matrix to visit my portfolio website ]</sup>
-</div>
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/head-arsenal-light.svg"><img src="assets/head-arsenal.svg" width="100%" alt="02 arsenal"></picture>
 
-<!-- Skills Section with Animated Progress Bars -->
-<h2>
-  <img src="https://media.giphy.com/media/UVG0BN8TOMKkPOJS6e/giphy.gif" width="40px" alt="Skills">
-  <span>Technical Arsenal</span>
-</h2>
+<img src="assets/nmap.svg" width="100%" alt="Skills as an nmap scan: pentest (Kali, Metasploit, Burp Suite, Nmap); network security (VLANs, OSPF, VPN, Wireshark, Packet Tracer); secure development (Spring Boot, Next.js, Node.js, Flask, OWASP); IoT (Arduino, C++); databases (MySQL, MongoDB, Supabase, Firebase, SQLite); code (Python, Java, C/C++, JavaScript/TypeScript, Bash); AI systems (Gemini API, MCP, TensorFlow, Keras); DevSecOps (GitHub Actions, Docker, Semgrep, Gitleaks, Trivy); TryHackMe top 7%.">
 
-<table align="center">
-  <tr>
-    <td>
-      <h3 align="center">Programming Languages</h3>
-      <img src="https://skillicons.dev/icons?i=java,python,javascript,html,css&theme=dark" alt="Programming Languages" /><br>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=janiyax35&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=0f0" alt="Top Languages" />
-    </td>
-    <td>
-      <h3 align="center">Tools & Technologies</h3>
-      <img src="https://skillicons.dev/icons?i=linux,vscode,git,arduino,firebase&theme=dark" alt="Tools" /><br>
-      <img src="https://github-profile-trophy.vercel.app/?username=janiyax35&theme=matrix&no-frame=true&column=3&row=2" alt="Trophies" />
-    </td>
-  </tr>
-</table>
-
-<!-- Projects Section with Animated Cards -->
-<h2>
-  <img src="https://media.giphy.com/media/3oKIPeQ5Uz1smtGD28/giphy.gif" width="40px" alt="Projects">
-  <span>Security Projects</span>
-</h2>
-
-<div align="center">
-  <a href="https://github.com/janiyax35?tab=repositories">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=janiyax35&repo=janiyax35.github.io&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=0f0&icon_color=00eeff" alt="Portfolio Website"/>
-  </a>
-  <a href="https://github.com/janiyax35?tab=repositories">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=janiyax35&repo=IndustrialNetworkSystem&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=0f0&icon_color=00eeff" alt="Network System"/>
-  </a>
-</div>
-
-<!-- Education Timeline with Animation -->
-<h2>
-  <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="40px" alt="Education">
-  <span>Academic Journey</span>
-</h2>
-
-<div align="center">
-  <!-- Terminal-style Academic Timeline -->
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&duration=4000&pause=1000&color=00EEFF&center=true&vCenter=true&multiline=true&random=false&width=800&height=120&lines=2023+-+Present+%3A%3A+BSc+(Hons)+IT+Specialized+in+Cyber+Security+%40+SLIIT;2023+%3A%3A+Advanced+Level+-+Mahanama+College+(1B%2C+2C+passes);2020+%3A%3A+Ordinary+Level+-+Mahanama+College+(2A%2C+3B%2C+4C+passes)" />
-</div>
-
-<!-- Terminal-style Command Line -->
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&duration=1&color=0FFF00&center=true&vCenter=true&repeat=false&width=800&height=30&lines=$+ls+-la+cybersecurity_skills/" alt="Command" />
-  
-  <table align="center">
-    <tr>
-      <td><img src="https://img.shields.io/badge/Network%20Security-85%25-0f0?style=flat-square&labelColor=black"/></td>
-      <td><img src="https://img.shields.io/badge/Penetration%20Testing-60%25-0f0?style=flat-square&labelColor=black"/></td>
-    </tr>
-    <tr>
-      <td><img src="https://img.shields.io/badge/Security%20Analysis-75%25-00eeff?style=flat-square&labelColor=black"/></td>
-      <td><img src="https://img.shields.io/badge/System%20Administration-70%25-00eeff?style=flat-square&labelColor=black"/></td>
-    </tr>
-  </table>
-</div>
-
-<!-- Live Portfolio Preview -->
-<h2>
-  <img src="https://media.giphy.com/media/1GEATImIxEXVR79Dhk/giphy.gif" width="40px" alt="Portfolio">
-  <span>Digital Presence</span>
-</h2>
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/head-cases-light.svg"><img src="assets/head-cases.svg" width="100%" alt="03 case files"></picture>
 
 <p align="center">
-  <a href="https://janiyax35.github.io" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-janiyax35.github.io-0f0?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio"/>
-  </a>
+<a href="https://janith.qzz.io/#cases"><img src="assets/case-sentinel.svg" width="49%" alt="CASE-001 Operation Silent Dawn: Sentinel CTF — custom CTF platform and six-stage incident-response challenge. Live, invite-only. Private repo, available on request."></a>
+<a href="https://janith.qzz.io/#cases"><img src="assets/case-nodegoat.svg" width="49%" alt="CASE-002 NodeGoat DevSecOps Pipeline — STRIDE threat model, four OWASP Top 10 fixes, four CI security gates. Private repo, available on request."></a>
+<a href="https://github.com/janiyax35/kapruka-shopping-agent"><img src="assets/case-kapruka.svg" width="49%" alt="CASE-003 Kapruka AI Shopping Agent — Gemini 2.5 Flash over the Model Context Protocol. 700+ national entrants."></a>
+<a href="https://github.com/janiyax35/Enterprise-Network-Architecture-Design"><img src="assets/case-network.svg" width="49%" alt="CASE-004 Enterprise Network Architecture — VLAN segmentation across six departments, OSPF, VPN, centralized firewalls. 75+ hosts."></a>
 </p>
 
-<div align="center">
-  <img src="https://camo.githubusercontent.com/61491d59e71fec5c794945fed916a4a682b6c0404fc31f30b08a0d919c558404/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537363966633430316236333162616231616464623261622f313534313538303631313632342d5445363451474b524a4738535741495553374e532f6b6531375a77644742546f6464493870446d34386b506f73776c7a6a53564d4d2d53784f703743563539425a772d7a505067646e346a557756634a45315a7657515578776b6d794578676c4e714770304976544a5a616d574c49327a76595748384b332d735f3479737a63703272795449304871544f6161556f68724938504936465879386339505774426c7141566c555335697a7064634958445a71445976707252715a32395077306f2f636f64696e672d667265616b2e676966" width="500px" alt="Coding Animation"/>
-</div>
+<p align="center"><sub>
+Sentinel CTF is live at <a href="https://ctf.janith.qzz.io">ctf.janith.qzz.io</a> (invite-only: <a href="mailto:janithmihijaya123@gmail.com?subject=Sentinel%20CTF%20access">ask me for access</a>) · private repos are available on request · <a href="https://janith.qzz.io/#cases">all 9 case files →</a>
+</sub></p>
 
-<!-- Contact Section with Animated Icons -->
-<h2>
-  <img src="https://media.giphy.com/media/jSKBmKkvo2dPQQtsR1/giphy.gif" width="40px" alt="Connect">
-  <span>Connect with me</span>
-</h2>
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/head-intel-light.svg"><img src="assets/head-intel.svg" width="100%" alt="04 intel"></picture>
 
-<div align="center">
-  <a href="mailto:janithmihijaya123@gmail.com">
-    <img src="https://img.shields.io/badge/Email-janithmihijaya123@gmail.com-0f0?style=for-the-badge&logo=gmail&logoColor=white&labelColor=black" alt="Email"/>
-  </a>
-  <br>
-  <a href="https://github.com/janiyax35">
-    <img src="https://img.shields.io/badge/GitHub-janiyax35-00eeff?style=for-the-badge&logo=github&logoColor=white&labelColor=black" alt="GitHub"/>
-  </a>
-  <br>
-  <a href="https://linkedin.com/in/janithdeshan">
-    <img src="https://img.shields.io/badge/LinkedIn-janithdeshan-0f0?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=black" alt="LinkedIn"/>
-  </a>
-</div>
-<a>
-  
-</a>
-<div align="center">
-  <a href="https://www.buymeacoffee.com/janiyax" target="_blank">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" height="40" />
-  </a>
-</div>
-<!-- Contribution Snake Animation -->
-<div align ="center">
-<h3>💻 Watch my contribution graph get eaten by the snake 🐍</h3>
-  
-  ![Snake animation](https://github.com/janiyax35/contribution_snake/blob/main/dist/github-contribution-grid-snake-dark.svg)
-  
-</div>
+<img src="assets/intel.svg" width="100%" alt="Education: BSc (Hons) IT – Cyber Security, SLIIT, 2024–2028, Year 3 Semester 1, in progress; G.C.E. Advanced Level 2023, Mahanama College, Technology stream, passed; G.C.E. Ordinary Level 2020, Mahanama College, passed. TryHackMe paths: Pre Security (completed Feb 2026), AI Security and Cyber Security 101 (in progress). Certifications: Hacker Holidays (TryHackMe, Aug 2026), Introduction to Cybersecurity (Cisco, Aug 2026), Kapruka Agent Challenge 2026 Builder (Jul 2026), loveatfirstbreach (TryHackMe, Feb 2026), Google Cloud Arcade Levels 1–3 (2025), Networking Basics (Cisco, in progress).">
 
-<!-- Matrix Animation Footer -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00eeff,100:0f0&height=120&section=footer&text=STAY%20SECURE&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=70" width="100%"/>
-  
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&duration=3000&pause=800&color=00EEFF&center=true&vCenter=true&random=false&width=650&lines=%3E%3E+ALL+SYSTEMS+OPERATIONAL+%3C%3C;%3E%3E+SECURITY+PROTOCOLS+ACTIVE+%3C%3C;%3E%3E+CONNECTION+ENCRYPTED+%3C%3C" alt="System Status" />
-</div>
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/head-telemetry-light.svg"><img src="assets/head-telemetry.svg" width="100%" alt="05 telemetry"></picture>
 
-<!-- Hidden Binary - Not visible on GitHub but enhances the theme feel -->
-<!--
-01001010 01100001 01101110 01101001 01110100 01101000 00100000 01000100 01100101 01110011 01101000 01100001 01101110
-01000011 01111001 01100010 01100101 01110010 01110011 01100101 01100011 01110101 01110010 01101001 01110100 01111001
--->
+<img src="https://raw.githubusercontent.com/janiyax35/janiyax35/output/telemetry.svg" width="100%" alt="Live GitHub telemetry: repositories, stars, followers, contributions, streak, weekly activity, top languages and degree progress. Redrawn daily by GitHub Actions.">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/janiyax35/janiyax35/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/janiyax35/janiyax35/output/snake-light.svg">
+  <img src="https://raw.githubusercontent.com/janiyax35/janiyax35/output/snake-dark.svg" width="100%" alt="A lime snake eating my contribution graph">
+</picture>
+
+<picture><source media="(prefers-color-scheme: light)" srcset="assets/head-handshake-light.svg"><img src="assets/head-handshake.svg" width="100%" alt="06 handshake"></picture>
+
+Open to **internships and collaborations** in security. Email is the fastest way to reach me, and I reply within 48 hours. Want the source of a private project, or access to Sentinel CTF? Just ask.
+
+<p align="center">
+<a href="mailto:janithmihijaya123@gmail.com"><img src="assets/btn-email.svg" height="40" alt="Email"></a>&nbsp;
+<a href="https://linkedin.com/in/janithdeshan"><img src="assets/btn-linkedin.svg" height="40" alt="LinkedIn"></a>&nbsp;
+<a href="https://www.buymeacoffee.com/janiyax"><img src="assets/btn-coffee.svg" height="40" alt="Buy me a coffee"></a>
+</p>
+
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=janiyax35&label=visitors&color=b6ff3b&style=flat-square" alt="Profile visitors">
+</p>
+
+<a href="https://janith.qzz.io"><img src="assets/footer.svg" width="100%" alt="JANITH DESHAN"></a>
+
+<p align="center"><sub>Every graphic here is hand-drawn SVG, and the telemetry is redrawn daily by GitHub Actions. Stay curious, stay secure.</sub></p>
